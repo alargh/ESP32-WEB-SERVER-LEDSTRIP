@@ -99,7 +99,6 @@ void pickedColorEffect() {
   pixels.show();
 }
 
-// Blink Effect
 void blinkEffect() {
   unsigned long currentTime = millis();
   
@@ -241,7 +240,6 @@ void updateEffects() {
 }
 
 void loop() {
-  // Handle Wi-Fi client
   WiFiClient client = server.available();
   if (client) {
     unsigned long currentTime = millis();
